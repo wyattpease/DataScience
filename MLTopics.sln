@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MLTopics", "MLTopics\MLTopics.pyproj", "{EF178CA2-19DD-4B5E-92AC-0DEF92942EF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF178CA2-19DD-4B5E-92AC-0DEF92942EF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF178CA2-19DD-4B5E-92AC-0DEF92942EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDC28B1A-D216-42B3-B036-B820D5231837}
+	EndGlobalSection
+EndGlobal
