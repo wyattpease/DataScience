@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ComparingCosmetics", "ComparingCosmetics\ComparingCosmetics.pyproj", "{51B3BC10-E4FD-4333-BD86-C1D35BB583F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51B3BC10-E4FD-4333-BD86-C1D35BB583F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51B3BC10-E4FD-4333-BD86-C1D35BB583F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45846B2B-6E1F-4260-BD4E-21000D4C9BA0}
+	EndGlobalSection
+EndGlobal
