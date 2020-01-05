@@ -1,4 +1,3 @@
-#Intro to ML topics
 import pandas as pd
 import matplotlib.pyplot as plt
 import re
@@ -8,20 +7,23 @@ import numpy as np
 import warnings
 from sklearn.decomposition import LatentDirichletAllocation as LDA
 
+#Analyzing Zika outbreaks using NLP methods
+
 papers = pd.read_csv('Datasets/paho.csv')
 print(papers.head())
 
-#drop unnecessary columns
+#drop columns that do not contain useful information
 papers = papers.drop(['Month of Date','Report Epi Week', 'Year of Date'], axis=1)
 print(papers.head())
 
-#plot by Month/Year
+#Determine number of reports per year
 groups = papers.groupby('Date')
 counts = groups.size()
 plt.figure()
 plt.plot(counts)
 
-#pre-process text
+#pre-processing text to convert to Uppercase 
+#print the first 5 rows before and after to confirm the changes
 print(papers['Country / territory'].head())
 papers['Country_processed'] = papers['Country / territory'].map(lambda x: re.sub('[,\.!?]', '', x))
 papers['Country_processed'] = papers['Country_processed'].map(lambda x: x.upper())
