@@ -5,6 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 plt.style.use("fivethirtyeight")
 
+# Small project to extract Facebook and Tesla article headlines and calculate their sentiment values
 html_tables = {}
 
 # Loading Html files into BeautifulSoup collection for analysis
